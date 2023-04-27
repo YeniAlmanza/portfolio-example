@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--
+  Student Name: Yeni Almanza
+  File Name: contact.html
+  Date: 3/8/2023
+  -->
+<html lang="en">
+<head>
+  <title>Contact | Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Contact me for more information or leave me any feedback.">
+  <link rel="stylesheet" href="css/styles.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Mobile Nav -->
+<nav class="mobile-nav">
+    <div id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Java</a>
+        <a href="careers.html">Careers</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </div>
+        <a class="nav-icon" onclick="menu()">
+            <div id="icon">&#9776;</div>
+        </a>
+</nav>
+  <header>
+    <div class="tab-desk">
+    <a href="index.html"><img src="images/portfolio.png" alt="technology image"></a>
+    </div>
+    <div class="mobile">
+      <h1>&#128126; Yeni Almanza</h1>
+      <h3>Computer Science Student</h3>
+    </div>
+  </header>
+
+  <nav class="tab-desk">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Java</a></li>
+      <li><a href="careers.html">Careers</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Use the main area to add the main content to the webpage -->
+  <main>
+    <div id="contact">
+      <h2 class="contact">Contact me for more information</h2>
+      <p class="tel-link round mobile"><a href="(123)-456-7890">(123)-456-7890<a></p>
+      <p class="tab-desk"><a href="(123)-456-7890">(123)-456-7890<a></p>
+      <p><a href="mailto: ya00013@my.westga.edu" class="email-link">ya00013@my.westga.edu</a></p>
+      <p>You can locate me at: 1601 Maple St, Carrollton, GA 30118</p>
+      <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=University%20of%20West%20Georgia,%20Maple%20Street,%20Carrollton,%20GA+(School)&amp;t=k&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="600" height="450" class="map" allowfullscreen></iframe>
+    </div>
+    <div id="form">
+      <form class="form-grid">
+        <fieldset>
+          <legend> Contact Information</legend>
+          <label for="fName"> First Name:</label>
+          <input type="text" name="fName" id="fName">
+          <label for="lName"> Last Name:</label>
+          <input type="text" name="lName" id="lName">
+          <label for="email"> Email:</label>
+          <input type="email" name="email" id="email">
+          <label for="phone"> Phone:</label>
+          <input type="tel" name="phone" id="phone">
+        </fieldset>
+        <fieldset>
+          <legend>Feedback</legend>
+          <label for="message"> Message:</label>
+          <textarea id="message" name="message"></textarea>
+          <input type="submit" id="submit" value="Submit" class="btn">
+        </fieldset>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <div class="copyright">
+      <p>&copy; Copyright 2023. All Rights Reserved.</p>
+      <a href="mailto:ya00013@my.westga.edu">ya00013@my.westga.edu</a>
+    </div>
+    <div class="social">
+      <a href="https://www.facebook.com" target="_blank"><img src="images/facebook-logo.png" alt="Facebook logo"></a>
+      <a href="https://twitter.com" target="_blank"><img src="images/twitter-logo.png" alt="Twitter logo"></a>
+      </div>
+  </footer>
+  <script src="scripts/script.js"></script>
+</body>
+</html>

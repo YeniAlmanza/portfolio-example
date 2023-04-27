@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--
+  Student Name: Yeni Almanza
+  File Name: about.html
+  Date: 3/8/2023
+  -->
+<html lang="en">
+<head>
+  <title>Home | About Java</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Here is an introduction into java and some basic information.">
+  <link rel="stylesheet" href="css/styles.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Mobile Nav -->
+<nav class="mobile-nav">
+    <div id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Java</a>
+        <a href="careers.html">Careers</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </div>
+        <a class="nav-icon" onclick="menu()">
+            <div id="icon">&#9776;</div>
+        </a>
+</nav>
+  <header>
+    <div class="tab-desk">
+    <a href="index.html"><img src="images/portfolio.png" alt="technology image"></a>
+      </div>
+    <div class="mobile">
+      <h1>&#128126; Yeni Almanza</h1>
+      <h3>Computer Science Student</h3>
+    </div>
+  </header>
+
+  <nav class="tab-desk">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Java</a></li>
+      <li><a href="careers.html">Careers</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Use the main area to add the main content to the webpage -->
+  <main>
+    <section id ="info">
+      <h2>What is Java?</h2>
+      <p> Java is an advanced software development project for network devices and embedded systems. It is one of the most popular programming languages in the world. It can be used for apps, games, Artificial intelligence (AI), interent of things (IoT), and much more.</p>
+        <h4>Java explained under 2 minutes</h4>
+        <audio controls>
+          <source src="media/javashort.mp3" type="audio/mp3">
+          <source src="media/javashort.ogg" type="audio/ogg">
+          <p>Your browser does not support the audio element.</p>
+        </audio>
+          <p class="credit">Credits: Alex Lugo on YouTube</p>
+        </section> 
+         <h2>Some Java Basics:</h2>
+      <section id="datatypes">
+        <h3> Data types</h3>
+        <img src="images/datatypes.jpg" alt="data types diagram" class="round">
+        <p>Variables are the containers for storing data, here are the ones I've used.</p>
+        <ul>
+          <li>String- stores text by using double quotes, such as "Hello".</li>
+          <li>int- stores whole numbers, without decimals.</li>
+          <li>double/float- stores floating point numbers, with decimals.</li>
+          <li>char- stores single characters by using single quotes, such as 'B'</li>
+          <li>boolean- stores value with either true or false.</li>
+        </ul>
+      </section>
+
+      <section id ="method">
+      <h3>Methods</h3>
+      <img src="images/methods.jpg" alt="method example" class="round">
+      <p> A method is a block of code that run when it's called. They are used to perform certain actions and can also be known as functions. </p>
+      <h4> A method consists of:</h4>
+      <ul>
+        <li>Modifier access either private or public.</li>
+        <li>Return type which returns the value.</li>
+        <li>Method name</li>
+        <li>Parameters</li>
+        <li>Method body</li>
+      </ul>
+    </section>
+
+     <section id="constructor">
+       <h3>Constructors</h3>
+       <img src="images/constructor.jpg" alt="constructor example" class="round">
+       <p>In java a constructor is used to initialize objects and is invoked when an object of the class is created. Unlike a method the constrcutor has the same name as the class and does not have a return type.</p>
+       <h4>In Java, constructors can be divided into 3 types:</h4>
+       <ol>
+         <li>No-Arg Constructor</li>
+         <li>Parameterized Constructor</li>
+         <li>Default Constructor</li>
+        </ol>
+      </section>
+
+  </main>
+
+  <footer>
+    <div class="copyright">
+      <p>&copy; Copyright 2023. All Rights Reserved.</p>
+      <a href="mailto:ya00013@my.westga.edu">ya00013@my.westga.edu</a>
+    </div>
+    <div class="social">
+      <a href="https://www.facebook.com" target="_blank"><img src="images/facebook-logo.png" alt="Facebook logo"></a>
+      <a href="https://twitter.com" target="_blank"><img src="images/twitter-logo.png" alt="Twitter logo"></a>
+      </div>
+  </footer>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
